@@ -1,0 +1,80 @@
+[
+  {
+    "fname": "ชคัทพล",
+    "lname": "ขุนทอง",
+    "birthday": "1993-10-06",
+    "laserid": "JT0-0679582-95",
+    "policynumber": "62108/กธ/069123",
+    "appnumber": "62108/รย/069123",
+    "policy_key": "MRHGK5870JT105704",
+    "policy_type": "ประกันภัยรถยนต์ภาคบังคับ",
+    "policy_begindate": "2019-04-08T00:00:00",
+    "policy_enddate": "2020-04-08T00:00:00",
+    "suminsure": "200000"
+  },
+  {
+    "fname": "ชคัทพล",
+    "lname": "ขุนทอง",
+    "birthday": "1993-10-06",
+    "laserid": "JT0-0679582-95",
+    "policynumber": "62108/กธ/069123",
+    "appnumber": "62108/รย/069123",
+    "policy_key": "MRHGK5870JT105704",
+    "policy_type": "กรมธรรม์ประกันภัยสำหรับบ้านและทรัพย์สิน",
+    "policy_begindate": "2019-04-08T00:00:00",
+    "policy_enddate": "2020-04-08T00:00:00",
+    "suminsure": "200000"
+  },
+  {
+    "fname": "ชคัทพล",
+    "lname": "ขุนทอง",
+    "birthday": "1993-10-06",
+    "laserid": "JT0-0679582-95",
+    "policynumber": "62108/กธ/069123",
+    "appnumber": "62108/รย/069123",
+    "policy_key": "MRHGK5870JT105704",
+    "policy_type": "กรมธรรม์ประกันภัยอุบัติเหตุและสุขภาพ",
+    "policy_begindate": "2019-04-08T00:00:00",
+    "policy_enddate": "2020-04-08T00:00:00",
+    "suminsure": "200000"
+  },
+  {
+    "fname": "ชคัทพล",
+    "lname": "ขุนทอง",
+    "birthday": "1993-10-06",
+    "laserid": "JT0-0679582-95",
+    "policynumber": "62108/กธ/069123",
+    "appnumber": "62108/รย/069123",
+    "policy_key": "MRHGK5870JT105704",
+    "policy_type": "กรมธรรม์ประกันภัยธุรกิจและความรับผิดชอบ",
+    "policy_begindate": "2019-04-08T00:00:00",
+    "policy_enddate": "2020-04-08T00:00:00",
+    "suminsure": "200000"
+  },
+  {
+    "fname": "ชคัทพล",
+    "lname": "ขุนทอง",
+    "birthday": "1993-10-06",
+    "laserid": "JT0-0679582-95",
+    "policynumber": "62108/กธ/069123",
+    "appnumber": "62108/รย/069123",
+    "policy_key": "MRHGK5870JT105704",
+    "policy_type": "กรมธรรม์ประกันภัยทางทะเลและขนส่ง",
+    "policy_begindate": "2019-04-08T00:00:00",
+    "policy_enddate": "2020-04-08T00:00:00",
+    "suminsure": "200000"
+  },
+  {
+    "fname": "ชคัทพล",
+    "lname": "ขุนทอง",
+    "birthday": "1993-10-06",
+    "laserid": "JT0-0679582-95",
+    "policynumber": "62108/กธ/069123",
+    "appnumber": "62108/รย/069123",
+    "policy_key": "MRHGK5870JT105704",
+    "policy_type": "กรมธรรม์ประกันภัยด้านการเงินและการค้ำประกัน",
+    "policy_begindate": "2019-04-08T00:00:00",
+    "policy_enddate": "2020-04-08T00:00:00",
+    "suminsure": "200000"
+  }
+]

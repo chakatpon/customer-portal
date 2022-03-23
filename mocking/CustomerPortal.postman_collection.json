@@ -1,0 +1,139 @@
+{
+  "info": {
+    "_postman_id": "a12f0dd3-bc14-4820-a85e-334e76ce5ea4",
+    "name": "CustomerPortal",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "CheckCardByLaser",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "x-api-key",
+            "type": "text",
+            "value": "71f717e0ed83431da775b176523a3464"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": {
+            "PID": "3199900488478",
+            "FirstName": "ปกรณ์",
+            "LastName": "คุ้มตรีทอง",
+            "DOB": "25190129",
+            "Laser": "ME1124199411"
+          }
+        },
+        "url": {
+          "raw": "https://vgateway.viriyah.co.th/dopa_checkcard/CheckCardByLaser",
+          "protocol": "https",
+          "host": ["vgateway", "viriyah", "co", "th"],
+          "path": ["dopa_checkcard", "CheckCardByLaser"]
+        }
+      },
+      "response": [
+        {
+          "name": "CheckCardByLaser",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": {
+                "PID": "3199900488478",
+                "FirstName": "ปกรณ์",
+                "LastName": "คุ้มตรีทอง",
+                "DOB": "25190129",
+                "Laser": "ME1124199411"
+              }
+            },
+            "url": {
+              "raw": "https://vgateway.viriyah.co.th/dopa_checkcard/CheckCardByLaser",
+              "protocol": "https",
+              "host": ["vgateway", "viriyah", "co", "th"],
+              "path": ["dopa_checkcard", "CheckCardByLaser"]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "private, max-age=0"
+            },
+            {
+              "key": "Content-Length",
+              "value": "106"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 18 Apr 2019 06:50:26 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Microsoft-IIS/8.5"
+            },
+            {
+              "key": "X-Aspnet-Version",
+              "value": "2.0.50727"
+            },
+            {
+              "key": "X-Powered-By",
+              "value": "ASP.NET"
+            },
+            {
+              "key": "X-Ratelimit-Limit",
+              "value": "0"
+            },
+            {
+              "key": "X-Ratelimit-Remaining",
+              "value": "0"
+            },
+            {
+              "key": "X-Ratelimit-Reset",
+              "value": "0"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"IsError\": \"false\",\n    \"ErrorMessage\": \"\",\n    \"Code\": \"0\",\n    \"Desc\": \"สถานะปกติ\"\n}"
+        }
+      ]
+    }
+  ],
+  "auth": {
+    "type": "basic",
+    "basic": [
+      {
+        "key": "password",
+        "value": "cdv2020",
+        "type": "string"
+      },
+      {
+        "key": "username",
+        "value": "custdev",
+        "type": "string"
+      }
+    ]
+  },
+  "protocolProfileBehavior": {}
+}

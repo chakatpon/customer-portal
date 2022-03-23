@@ -1,0 +1,52 @@
+{
+  "HA_PROXY_PATH": "/customers",
+  "CHECK_BY_LASER": {
+    "METHOD": "post",
+    "URL": "https://vgateway.viriyah.co.th/dopa_checkcard/CheckCardByLaser",
+    "END_POINT": "/api/check-by-laser"
+  },
+  "SEARCH_POLICIES": {
+    "METHOD": "get",
+    "URL": "https://virtserver.swaggerhub.com/viriyah.insurance/Public_Policy/1.0.0/SearchPolicies",
+    "END_POINT": "/api/search-policies"
+  },
+  "SEARCH_MOTOR": {
+    "METHOD": "get",
+    "URL": "https://virtserver.swaggerhub.com/viriyah.insurance/Public_Policy/1.0.0/SearchMotorPolicies",
+    "END_POINT": "/api/search-motor"
+  },
+  "SEARCH_NON_MOTOR": {
+    "METHOD": "get",
+    "URL": "https://virtserver.swaggerhub.com/viriyah.insurance/Public_Policy/1.0.0/SearchNonMotorPolicies",
+    "END_POINT": "/api/search-non-motor"
+  },
+  "SMS": {
+    "METHOD": "post",
+    "URL": "https://vgateway.viriyah.co.th/sms/AddQueMTimer",
+    "END_POINT": "/api/sms",
+    "AUTH_TYPE": "basic-auth",
+    "USERNAME": "ecom360",
+    "PASSWORD": "EC3om60"
+  },
+  "GET_CUSTOMERS_BY_ID": {
+    "METHOD": "post",
+    "URL": "https://vgateway.viriyah.co.th/cdata/GetCustomersByIDNumber",
+    "END_POINT": "/api/get-customers-by-id"
+  },
+  "LOGOUT": {
+    "METHOD": "post",
+    "END_POINT": "/api/logout"
+  },
+  "LOGGED_IN": {
+    "METHOD": "post",
+    "END_POINT": "/api/logged-in"
+  },
+  "O_AUTH": {
+    "METHOD": "post",
+    "END_POINT": "/api/oauth"
+  },
+  "FIREBASE": {
+    "API_KEY": "AIzaSyC_VelQrHGMPGRUXtO-yETY3vsjc4x19pA",
+    "AUTH_DOMAIN": "customersportaldev.firebaseapp.com"
+  }
+}

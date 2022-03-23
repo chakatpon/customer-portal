@@ -1,0 +1,38 @@
+[
+  {
+    "label": "หน้าหลัก",
+    "pathname": "/",
+    "key": "home",
+    "icon": "dashboard"
+  },
+  {
+    "label": "กรมธรรม์",
+    "pathname": "/policy",
+    "key": "policy",
+    "icon": "dns"
+  },
+  {
+    "label": "สินไหม",
+    "pathname": "/claim",
+    "key": "claim",
+    "icon": "build"
+  },
+  {
+    "label": "ดาวน์โหลดเอกสาร",
+    "pathname": "/e-document",
+    "key": "e-document",
+    "icon": "description"
+  },
+  {
+    "label": "ข้อมูลส่วนตัว",
+    "pathname": "/profile",
+    "key": "profile",
+    "icon": "assignment_ind"
+  },
+  {
+    "label": "ติดต่อเรา",
+    "pathname": "/contact",
+    "key": "contact",
+    "icon": "settings_phone"
+  }
+]
